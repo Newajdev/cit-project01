@@ -21,6 +21,10 @@
     border: 2px solid #8454F5;
     color: #8454F5;
 }
+.title{
+    font-weight: 600px;
+    font-size: 48px ;
+}
 
 /* ------------------------------------------------ */
 header {
@@ -169,52 +173,44 @@ li {
 .banner-container {
     position: relative;
 }
-
 .bglines {
     position: absolute;
     top: -60px;
     left: 0%;
     animation: bglines 1.5s infinite alternate;
 }
-
 .yellowbox {
     position: absolute;
     top: 210px;
     left: 80px;
 }
-
 .greenbox {
     position: absolute;
     top: 210px;
     right: 0px;
 }
-
 .hand-left {
     position: absolute;
     top: 115px;
     left: 80px;
 }
-
 .hand-right {
     position: absolute;
     top: 122px;
     right: 150px;
 }
-
 .arrow {
     position: absolute;
     top: 50px;
     left: 610px;
     animation: arrow 1.5s infinite alternate;
 }
-
 .dots {
     position: absolute;
     top: 600px;
     left: 1025px;
     animation: dots 1.5s infinite alternate;
 }
-
 .content-box {
     width: 464px;
     height: 390px;
@@ -222,19 +218,24 @@ li {
     top: 180px;
     left: 670px;
 }
-
 .header-title {
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 30px;
 }
-
 .header-description {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 60px;
 }
-
+/* --------------Best Services Start------------*/
+.services-container{
+    margin: 100px 255px ;
+}
+.services-container .title{
+    text-align: center;
+}
+/* --------------Best Services End------------*/
 /* animations KeyFrams */
 @keyframes arrow {
     from {
