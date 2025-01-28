@@ -229,11 +229,47 @@ li {
     margin-bottom: 60px;
 }
 /* --------------Best Services Start------------*/
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
 .services-container{
     margin: 100px 255px ;
 }
 .services-container .title{
     text-align: center;
+}
+.service-card{
+    width: 290px;
+    height: 295px;
+    
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+.service-card:hover{
+    box-shadow:  0px 2px 18px 10px rgba(0, 0, 0, 0.050);
+}
+.card-image{
+    width: 100px;
+    height: 100px;
+    background: #b3b3b3;
+    border-radius: 30px;
+   margin-bottom: 24px; 
+}
+.card-title{
+    font-weight: 600px;
+    font-size: 28px;
+    margin-bottom: 14px; 
+}
+.card-description{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 24px; 
+}
+strong{
+    font-weight: 700px;
+    font-size: 16px;
 }
 /* --------------Best Services End------------*/
 /* animations KeyFrams */
